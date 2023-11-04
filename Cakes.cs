@@ -2,14 +2,9 @@ public class Cakes
 {
     public static void Start()
     {
-        // 0 Создать цены и название всех тортов    
-        string tort1 = "тортик";
-        string tort2 = "тортище";
-        string tort3 = "торт95";
-
-        int tort1cena = 1507;
-        int tort2cena = 3600;
-        int tort3cena = 200;
+        // 0 Создать цены и название всех тортов
+        string[] cakeNames = { "Торт95", "Тортик", "Тортище" };
+        int[] cakesPrices = { 3600, 1507, 200 };
 
         //1 Вывести текст (Муьлха торт еза хьуна?;)
         Console.Write("Муьлха торт еза хьуна?: ");
@@ -19,22 +14,21 @@ public class Cakes
         string otvetpozovatelya = Console.ReadLine();
 
         //4 Сравнить название торта с имеюшимися тортами
-
-        if (otvetpozovatelya == tort1)
+        if (otvetpozovatelya == cakeNames[0])
         {
-            Console.WriteLine($"{tort1}ax {tort1cena} сом доьху");
+            Console.WriteLine($"{cakesPrices[0]} сом доьху");
         }
-        else if (otvetpozovatelya == tort2)
+        else if (otvetpozovatelya == cakeNames[1])
         {
-            Console.WriteLine($"{tort2}ax {tort2cena} сом доьху");
+            Console.WriteLine($"{cakesPrices[1]} сом доьху");
         }
-        else if (otvetpozovatelya == tort3)
+        else if (otvetpozovatelya == cakeNames[2])
         {
-            Console.WriteLine($"{tort3}ax {tort3cena} сом доьху");
+            Console.WriteLine($"{cakesPrices[2]} сом доьху");
         }
         else
         {
-            Console.WriteLine("{moyotvet} йяц, нету давай досвидания");
+            Console.WriteLine($"{otvetpozovatelya} йяц, нету давай досвидания");
         }
     }
 }
