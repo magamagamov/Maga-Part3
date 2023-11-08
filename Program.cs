@@ -1,1 +1,1 @@
-﻿Cakes.Start();
+﻿SravnenieDvuhChisel.Start();
