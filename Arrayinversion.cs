@@ -1,20 +1,11 @@
 public class Arrayinversion
 { 
-    public static void start()
+    public static void Start()
     {
-        int[] numbers = { 12, 4, 3, -2, 1, 9, 0 };
-        int n = numbers.Length;
-        int k = n / 2;
-
-        // что ты хотел этим сделать?
-        // попытайся сделать алгоритм
-        for (int i = 0; i < k; i++)
-            ;
-
-        foreach (int i in numbers)
-        { 
-            Console.WriteLine($"{i} \t");
-        } 
+    int[] array = {12, 4, 3, -2, 1, 9, 0,};
+    for (int i = array.Length - 1; i >= 0; --i)
+    Console.Write(array[i] + " ");
+    Console.ReadKey(true);
     }
 } 
 

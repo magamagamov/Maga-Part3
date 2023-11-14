@@ -1,1 +1,1 @@
-﻿SravnenieDvuhChisel.Start();
+﻿Arrayinversion.Start();
