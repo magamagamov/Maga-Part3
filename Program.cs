@@ -1,1 +1,1 @@
-﻿SravnenieDvuhChisel.Start();
+﻿MagicNumbers.Start();
