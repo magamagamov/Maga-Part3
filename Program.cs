@@ -1,1 +1,1 @@
-﻿SravnenieDvuhChisel.Start();
+﻿Birthday.Start();
