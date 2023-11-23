@@ -1,1 +1,1 @@
-﻿Arrayinversion.Start();
+Arrayinversion.Start();
