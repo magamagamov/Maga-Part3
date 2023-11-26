@@ -1,1 +1,1 @@
-MagicNumbers.Start();
+Arrayinversion.Start();
