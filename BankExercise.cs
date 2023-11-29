@@ -16,12 +16,12 @@ internal class Bank
         {
             double summasProcentami = summaVklada * 0.07 + summaVklada;
             Console.Write($"Сумма вклада с начисленными процентами:{summasProcentami}");
-            }
-            //    Если сумма вклада больше 200, то начисляется 10%
-            else if (summaVklada > 200000)
-            {
-                double summasProcentami = summaVklada * 0.1 + summaVklada;
-                Console.Write($"Сумма вклада с начисленными процентами:{summasProcentami}");
+        }
+        //    Если сумма вклада больше 200, то начисляется 10%
+        else if (summaVklada > 200000)
+        {
+            double summasProcentami = summaVklada * 0.1 + summaVklada;
+            Console.Write($"Сумма вклада с начисленными процентами:{summasProcentami}");
 
         }
     }
