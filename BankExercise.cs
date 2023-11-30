@@ -2,28 +2,28 @@ internal class Bank
 {
     public static void Start()
     {
-        //1.Пользователь вводит сумму вклада.
-        Console.Write("Сумма вклада; ");
+        Console.Write("Сумма вклада: ");
         Double summaVklada = Convert.ToDouble(Console.ReadLine());
-        //  Если сумма вклада меньше 100, то начисляется 5%.
-        if (summaVklada < 100000)
-        {
-            double summasProcentami = summaVklada * 0.05 + summaVklada;
-            Console.Write($"Сумма вклада с начисленными процентами:{summasProcentami}");
-        }
-        //   Если сумма вклада от 100 до 200, то начисляется 7%
-        else if (summaVklada > 100000 && summaVklada < 200000)
-        {
-            double summasProcentami = summaVklada * 0.07 + summaVklada;
-            Console.Write($"Сумма вклада с начисленными процентами:{summasProcentami}");
-        }
-        //    Если сумма вклада больше 200, то начисляется 10%
-        else if (summaVklada > 200000)
-        {
-            double summasProcentami = summaVklada * 0.1 + summaVklada;
-            Console.Write($"Сумма вклада с начисленными процентами:{summasProcentami}");
+        
+        double summasProcentami;
 
+        if (summaVklada < 100)
+        {
+            // Если сумма вклада меньше 100, то начисляется 5%.
+            summasProcentami = summaVklada * 0.05 + summaVklada;
         }
+        else if (summaVklada >= 100 && summaVklada < 200)
+        {
+            // Если сумма вклада от 100 до 200, то начисляется 7%
+            summasProcentami = summaVklada * 0.07 + summaVklada;
+        }
+        else
+        {
+            // Иначе 
+            summasProcentami = summaVklada * 0.1 + summaVklada;
+        }
+        
+        Console.Write($"Сумма вклада с начисленными процентами:{summasProcentami}");
     }
 
 
