@@ -1,1 +1,1 @@
-Arrayinversion.Start();
+Bank.Start();
