@@ -1,1 +1,1 @@
-﻿SravnenieDvuhChisel.Start();
+﻿Tests.Start();
