@@ -1,1 +1,1 @@
-﻿Tests.Start();
+Tests.Start();
