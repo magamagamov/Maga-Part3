@@ -1,1 +1,3 @@
-Tests.Start();
+using Maga_Part3;
+
+TemperaturesConverter.Start();
